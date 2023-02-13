@@ -1,0 +1,364 @@
+:root {
+    --nav-backgound-color: #212734;
+    --backgound-color: #1a202c;
+    --white-text-color: #ffffff;
+    --border-dark: #2B3548;
+    --purple: #805AD5;
+    --button-gradient: linear-gradient(90deg, #a37df9 0%, #7b5ac5 100%);
+    --red: #FF0000;
+    --green: #61E224;
+    --dark-grey: #686868;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.pt-20 {
+    padding-top: 19px;
+}
+
+.pb-14 {
+    padding-bottom: 14px;
+}
+
+body {
+    background-color: var(--backgound-color);
+}
+
+.logo {
+    margin: 0px 259px 18px 56px;
+}
+
+.navbar {
+    background-color: var(--nav-backgound-color);
+}
+
+.home {
+    background-image: var(--button-gradient);
+    border-radius: 10px;
+    margin-right: 6 px;
+}
+
+.home span {
+    font-family: 'Axiforma';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10px 32px 6px 0px;
+}
+
+li {
+    margin: 0 31.5px;
+}
+
+.home img {
+    padding: 9px 9px 16.79px 28px;
+}
+
+a,
+a:hover {
+    color: var(--white-text-color);
+    text-decoration: none;
+}
+
+.light {
+    margin-right: 55px;
+}
+
+.light img {
+    margin-left: 23px;
+}
+
+.navbar .nav-item .nav-link {
+    color: var(--white-text-color);
+    font-weight: bold;
+}
+
+.navbar .dropdown-menu {
+    background-color: var(--nav-backgound-color);
+    border-radius: 0;
+}
+
+.navbar .dropdown-menu .dropdown-item {
+    color: #333;
+    font-weight: normal;
+}
+
+
+
+.main-content {
+    padding: 20px;
+}
+
+.left {
+    margin: 19px 0 0 54px;
+    align-items: left;
+    background-color: var(--nav-backgound-color);
+    width: 408px;
+    height: auto;
+}
+
+.hide,
+.sort {
+    height: auto;
+    margin: 30px 7px 30px 0px;
+    padding: 10px 12px;
+}
+
+.hide {
+    width: 196px;
+}
+
+.sort {
+    width: 175px;
+}
+
+.sort img {
+    margin-left: 90px;
+}
+
+.hide img {
+    margin-left: 10px;
+}
+
+.has-search .form-control {
+    width: 378px;
+    height: 50px;
+    padding-left: 90px;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 370px;
+    height: 50px;
+    line-height: 2.375rem;
+    margin-left: 44px;
+    pointer-events: none;
+    color: var(--purple);
+}
+
+.hide,
+.sort,
+.has-search .form-control {
+    background-color: var(--backgound-color);
+    border: 1px solid #2B3548;
+    border-radius: 7px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    color: var(--white-text-color);
+}
+
+.metamask,
+.coinbase {
+    margin-left: 18px;
+    margin-right: 14px;
+    width: 27px;
+    height: 25.04px;
+}
+
+.active {
+    border-right: 5px solid #805AD5;
+    border-radius: 7px;
+}
+
+.meta p,
+.metagr p {
+    color: var(--white-text-color);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.meta span {
+    color: var(--red);
+    margin-left: 37px;
+}
+
+.minireddiag {
+    margin-left: 15px;
+    width: 38.66px;
+    height: 19px;
+}
+
+.pen {
+    margin-left: 16px;
+    width: 58.79px;
+    height: 37.79px;
+}
+
+.metagr {
+    background-color: var(--backgound-color);
+    padding: 8px 13px;
+}
+
+.binance {
+    margin-right: 14px;
+    margin-top: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.binanceactp {
+    padding: 14px 24px;
+    border-radius: 7px;
+}
+
+.binanceact {
+    background-color: var(--border-dark);
+}
+
+.metagr img {
+    padding-top: 5px;
+}
+
+.metagr span {
+    color: var(--green);
+    margin-left: 57px;
+}
+
+.diag {
+    padding-bottom: 9px;
+    border-bottom: 1px solid #686868;
+}
+
+.diag p {
+    margin-top: 16px;
+}
+
+.diag img {
+    margin-left: 80px;
+    width: 100px;
+    height: 48px;
+}
+
+.fiveday {
+    background-color: var(--border-dark);
+    color: var(--white-text-color);
+    padding-top: 18px;
+}
+
+.fiveday a {
+    color: var(--red);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.fiveday p {
+    margin-left: 16px;
+    margin-right: 22px;
+    margin-bottom: 13px;
+}
+
+.close {
+    margin-right: 25px;
+    padding: 3px 7px;
+    font-size: 16px;
+    color: var(--white-text-color);
+    background-color: var(--backgound-color);
+    border-radius: 50%;
+    width: 23px;
+    height: 23px;
+}
+
+.submit {
+    margin: 0 13px 23px 13px;
+    width: 72%;
+    border-radius: 10px;
+    background-color: var(--purple);
+    border: 0;
+
+}
+
+
+.right {
+    margin-top: 23px;
+    margin-left: 13px;
+    color: var(--white-text-color);
+    width: auto;
+}
+
+.text1 img {
+    margin-left: 15px;
+    width: 180px;
+}
+
+.text1 {
+    margin-top: 20px;
+    margin-left: 30px;
+    position: absolute;
+}
+
+.text2 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.text2 a {
+    text-decoration: none;
+    color: var(--purple);
+    margin-left: 45px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.total1 {
+    background-color: #212834;
+    height: 349px;
+    padding-top: 11px;
+    padding-left: 20px;
+    border-radius: 7.5px;
+    margin-right: 8px;
+}
+
+.total1 img {
+    width: 242px;
+    height: 213px;
+    margin: 26px 70px 0px 40px;
+}
+
+.ml img {
+    height: 313px;
+}
+
+.futures,
+.analitics {
+    width: 464px;
+}
+
+.mrnick {
+    width: 430px;
+}
+
+.nk {
+    margin-top: 7px;
+}
+
+.holdings {
+    width: 1366px;
+    height: 333px;
+    margin-top: 7px;
+    margin-bottom: 20px;
+}
